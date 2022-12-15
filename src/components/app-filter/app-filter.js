@@ -7,6 +7,8 @@ const AppFilter = (props) => {
         generalButton = 'btn btn-outline-light'
     ;
 
+    // made correction
+
     return (
         <div className="btn-group" onClick={(e) => getFilterParam(e.target.getAttribute('data-filter'))}>
             <button type="button"
